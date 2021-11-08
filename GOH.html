@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="src/css/style.css">
+        <title>GOH-g V0.1 JS-only</title>
+    </head>
+    <body>
+        <div id="middle">
+            <h1 id="name" >Hello Loading..., welcome to the G.O.H Game.</h1>
+            <div id="giveGold" , onclick="editGold()">Get GOLD!</div>
+            <input id="nameInput">
+            <button id="changeName", onclick="redirect()" >Change Name!</button>
+            <h3 id="balance" >Balance:Loading...</h3>
+            <h2 >Inventory</h4>
+                <ul id="inventory">
+                </ul>
+        </div>
+    
+        <div>
+            <h1 >Market</h1>
+            <div id="updateMarket" , onclick="marketUpdater()">Search</div>
+            <select id="category">
+                <option value="weapons">Weapons</option>
+                <option value="nationalTreasures">National Treasures</option>
+                <option value="godPower">God Powers</option>
+            </select>
+        </div>
+    
+        <ul id="marketList">
+            <li >choose category</li>
+        </ul>
+
+        <script src="src/js/main.js"></script>
+    </body>
+</html>
